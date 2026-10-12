@@ -1,0 +1,7 @@
+# Parking Spot Spawner
+# The game takes a called vehicle out of the world once the player is this many
+# metres from it (250 by default). Raised so far that it never happens, so a vehicle
+# stays where it was left until it is put away at a parking spot or called somewhere
+# else. This applies to every vehicle the player calls, not only those brought out at
+# parking spots.
+Vehicle.summon_setup.despawnDistance: 100000
